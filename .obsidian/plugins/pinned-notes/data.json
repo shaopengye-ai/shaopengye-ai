@@ -1,0 +1,22 @@
+{
+  "pinnedNotes": [
+    {
+      "id": "9c4c9fb5-6665-4c40-9f09-7d5a5e34775e",
+      "icon": "home",
+      "path": "00/00",
+      "title": "shaopeng"
+    },
+    {
+      "id": "84eacd4f-8dde-4a57-985d-fcd36a07c0d3",
+      "icon": "list-todo",
+      "path": "00/00-01/00-01",
+      "title": "xinxing"
+    },
+    {
+      "id": "68ca2bad-c3d7-4f1e-a68d-8119e4a71530",
+      "icon": "file-badge",
+      "path": "00/00-06/00-06",
+      "title": "reviews"
+    }
+  ]
+}
