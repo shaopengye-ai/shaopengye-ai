@@ -91,24 +91,8 @@ em .internal-link {
 /* ------------------------------------------------------------------ */
 
 /* === 链接 + 代码/图片 后缀 === */
-.internal-link[href*=".java"]::after,
-a[href*=".java"]::after,
-.internal-link[href*=".sql"]::after,
-a[href*=".sql"]::after,
-.internal-link[href*=".bash"]::after,
-a[href*=".bash"]::after,
-.internal-link[href*=".shell"]::after,
-a[href*=".shell"]::after,
-.internal-link[href*=".xml"]::after,
-a[href*=".xml"]::after,
-.internal-link[href*=".js"]::after,
-a[href*=".js"]::after,
-.internal-link[href*=".json"]::after,
-a[href*=".json"]::after,
-.internal-link[href*=".prop"]::after,
-a[href*=".prop"]::after,
-.internal-link[href*=".css"]::after,
-a[href*=".css"]::after,
+.internal-link[href*=".py"]::after,
+a[href*=".py"]::after,
 .internal-link[href$=".svg"]::after,
 a[href$=".svg"]::after,
 .internal-link[href$=".png"]::after,
@@ -118,41 +102,9 @@ a[href$=".jpg"]::after {
     font-size: 70%;
     color: var(--link-color);
 }
-.internal-link[href*=".java"]::after,
-a[href*=".java"]::after {
-    content: " java";
-}
-.internal-link[href*=".sql"]::after,
-a[href*=".sql"]::after {
-    content: " sql";
-}
-.internal-link[href*=".bash"]::after,
-a[href*=".bash"]::after {
-    content: " bash";
-}
-.internal-link[href*=".shell"]::after,
-a[href*=".shell"]::after {
-    content: " shell";
-}
-.internal-link[href*=".xml"]::after,
-a[href*=".xml"]::after {
-    content: " xml";
-}
-.internal-link[href*=".js"]::after,
-a[href*=".js"]::after {
-    content: " js";
-}
-.internal-link[href*=".json"]::after,
-a[href*=".json"]::after {
-    content: " json";
-}
-.internal-link[href*=".prop"]::after,
-a[href*=".prop"]::after {
-    content: " prop";
-}
-.internal-link[href*=".css"]::after,
-a[href*=".css"]::after {
-    content: " css";
+.internal-link[href*=".py"]::after,
+a[href*=".py"]::after {
+    content: " py";
 }
 .internal-link[href$=".svg"]::after,
 a[href$=".svg"]::after,
