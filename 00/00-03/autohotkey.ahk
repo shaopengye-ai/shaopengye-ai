@@ -29,8 +29,9 @@ GetFromClipboard() {
 !j:: Send "{Right}"
 !c:: Send "{Up}"
 !m:: Send "{Down}"
+F8:: Send "你后续的所有回答都需要给出权威的来源以便我溯源核实真伪。"
 ; --- 查询单词 ---
-F8:: {
+F7:: {
     ; 保留原始剪贴板
     OriginalClipboard := A_Clipboard
 
