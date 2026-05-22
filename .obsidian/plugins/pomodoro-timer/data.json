@@ -3,7 +3,7 @@
   "breakLen": 5,
   "autostart": true,
   "useStatusBarTimer": true,
-  "notificationSound": true,
+  "notificationSound": false,
   "customSound": "",
   "showTaskProgress": true,
   "enableTaskTracking": false,
