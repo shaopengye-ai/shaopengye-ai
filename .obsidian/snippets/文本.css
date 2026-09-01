@@ -1,0 +1,25 @@
+/* === 保留所有空格，并且当代码到达行尾时会自动换行 === */
+/* 阅读视图 */
+.markdown-rendered :not(pre)>code {
+    white-space: pre-wrap;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* === 粗体 + 内联代码 字体颜色 === */
+/* 编辑视图 */
+.cm-strong.cm-inline-code,
+/* 阅读视图 */
+strong code {
+    color: var(--bold-color) !important;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* === 斜体 + 内联代码 字体颜色 === */
+/* 编辑视图 */
+.cm-em.cm-inline-code,
+/* 阅读视图 */
+em code {
+    color: var(--italic-color) !important;
+}

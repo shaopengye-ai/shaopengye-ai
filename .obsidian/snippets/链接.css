@@ -1,0 +1,73 @@
+/* === 内部链接 装饰 === */
+/* --- 编辑视图 wiki 链接 管道 --- */
+.cm-hmd-internal-link.cm-link-alias-pipe {
+    color: var(--text-faint) !important;
+}
+/* --- 编辑视图 wiki 链接 别名 --- */
+.cm-hmd-internal-link.cm-link-alias {
+    color: var(--text-normal) !important;
+}
+/* --- 编辑视图 wiki 链接 粗体 --- */
+/* 别名 */
+.cm-strong.cm-hmd-internal-link.cm-link-alias {
+    color: var(--bold-color) !important;
+}
+/* --- 阅读视图 wiki 链接 粗体 --- */
+strong .internal-link {
+    color: var(--bold-color) !important;
+}
+/* --- 编辑视图 wiki 链接 斜体 --- */
+/* 别名 */
+.cm-em.cm-hmd-internal-link.cm-link-alias {
+    color: var(--italic-color) !important;
+}
+/* --- 阅读视图 wiki 链接 斜体 --- */
+em .internal-link {
+    color: var(--italic-color) !important;
+}
+/* --- 编辑视图 markdown 链接 方括号 --- */
+.cm-formatting.cm-formatting-link.cm-link {
+    color: var(--text-faint) !important;
+}
+/* --- 编辑视图 markdown 链接 别名 --- */
+.cm-link {
+    color: var(--text-normal) !important;
+}
+/* --- 编辑视图 markdown 链接 粗体 --- */
+.cm-link.cm-strong {
+    color: var(--bold-color) !important;
+}
+/* --- 编辑视图 markdown 链接 斜体 --- */
+.cm-link.cm-em {
+    color: var(--italic-color) !important;
+}
+/* --- 编辑视图 markdown 链接 内联代码 --- */
+.cm-link.cm-inline-code {
+    color: var(--inline-code-normal) !important;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* === 链接 + 代码/图片 后缀 === */
+.internal-link[href*=".py"]::after,
+a[href*=".py"]::after,
+.internal-link[href$=".svg"]::after,
+a[href$=".svg"]::after,
+.internal-link[href$=".png"]::after,
+a[href$=".png"]::after,
+.internal-link[href$=".jpg"]::after,
+a[href$=".jpg"]::after {
+    font-size: 70%;
+}
+.internal-link[href*=".py"]::after,
+a[href*=".py"]::after {
+    content: " py";
+}
+.internal-link[href$=".svg"]::after,
+a[href$=".svg"]::after,
+.internal-link[href$=".png"]::after,
+a[href$=".png"]::after,
+.internal-link[href$=".jpg"]::after,
+a[href$=".jpg"]::after {
+    content: " img";
+}

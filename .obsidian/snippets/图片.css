@@ -1,0 +1,15 @@
+/* === 图片 装饰 === */
+img {
+    filter: brightness(95%);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 0px #000000;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* === 图片 居中 === */
+img[src*=".center"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+}

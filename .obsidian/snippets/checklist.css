@@ -1,0 +1,14 @@
+/* === 搜索框 装饰 === */
+.search.svelte-rdace4.svelte-rdace4 {
+    /* margin-right: -8px !important; */
+    margin-right: -10px !important;
+    font-family: var(--font-text-override);
+}
+
+/* ------------------------------------------------------------------ */
+
+/* === 任务项 字体大小 === */
+.classic.svelte-sx5ktw,
+.classic.svelte-sx5ktw code {
+    font-size: 87.5%;
+}
