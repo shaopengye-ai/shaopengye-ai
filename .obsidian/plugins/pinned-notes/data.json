@@ -11,6 +11,12 @@
       "path": "00/00-001/00-001",
       "icon": "list-todo",
       "id": "2a14101e-95db-4b38-ab37-3c71f26aa46f"
+    },
+    {
+      "title": "Python",
+      "path": "08/08-001/08-001",
+      "icon": "brain",
+      "id": "ff425653-6aba-4e50-af68-8f14218b0cdd"
     }
   ]
 }

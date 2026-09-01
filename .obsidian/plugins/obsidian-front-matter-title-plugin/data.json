@@ -121,7 +121,7 @@
   },
   "processor": {
     "args": [
-      "const courses = {\n    // shaopeng\n    '00': {\n        '001': 'xinxing'\n    },\n    // AI\n    '08': {\n\n    }\n};\n\n// 学科ID-课程ID-主题ID-... -> 学科ID-课程名-主题ID-...\nconst match = title.match(/^\\[m\\](.+)  ([0-9]{2})-([0-9]{3})(.+)$/);\nif (match) {\n    const heading = match[1];\n    const subject = match[2];\n    const course = match[3];\n    const rest = match[4];\n    if (courses[subject] && courses[subject][course]) {\n        return `${heading}\\n${subject}-${courses[subject][course]}${rest}`;\n    }\n}\n// 学科ID\n// 学科ID-课程ID\nif (title.match(/^\\[m\\].+$/)) {\n    title = title.replace(\"[m]\", \"\");\n}\nreturn title.replace(\"  \", \"\\n\");"
+      "const courses = {\n    // shaopeng\n    '00': {\n        '001': 'xinxing'\n    },\n    // AI\n    '08': {\n        '001': 'Python'\n    }\n};\n\n// 学科ID-课程ID-主题ID-... -> 学科ID-课程名-主题ID-...\nconst match = title.match(/^\\[m\\](.+)  ([0-9]{2})-([0-9]{3})(.+)$/);\nif (match) {\n    const heading = match[1];\n    const subject = match[2];\n    const course = match[3];\n    const rest = match[4];\n    if (courses[subject] && courses[subject][course]) {\n        return `${heading}\\n${subject}-${courses[subject][course]}${rest}`;\n    }\n}\n// 学科ID\n// 学科ID-课程ID\nif (title.match(/^\\[m\\].+$/)) {\n    title = title.replace(\"[m]\", \"\");\n}\nreturn title.replace(\"  \", \"\\n\");"
     ],
     "type": "function"
   }
